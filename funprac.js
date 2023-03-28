@@ -104,9 +104,9 @@ console.assert(
 
     // tests
     // ---
-    console.assert(sum(1, 2, 3) === 6)
-    console.assert(sum(1, 2, 3, 4) === 10)
-    console.assert(sum(1, 2, 3, 4, 5) === 15)
+    console.assert(sum(1, 2, 3) === 6);
+    console.assert(sum(1, 2, 3, 4) === 10);
+    console.assert(sum(1, 2, 3, 4, 5) === 15);
 
     // ----------------------------
     // using Array.sort(), sort the following array
@@ -150,7 +150,7 @@ console.assert(
         })
         .map(function(v, i, origArray){
             var newCustomer = v
-            newCustomer.fullname = v.first + " " + v.last
+            newCustomer.fullname =git  v.first + " " + v.last
             return newCustomer
 
         })
